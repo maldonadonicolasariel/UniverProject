@@ -1,0 +1,220 @@
+body {
+
+	background:white;
+	height: auto;
+	width: auto;
+}
+
+#header {
+	background-image: url(logoBG.png);
+	background-repeat: repeat-x;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+	height:150px;
+	width: 100%;
+	padding: 0px;
+}
+
+img	{
+	border:0;
+	vertical-align: middle;
+}
+
+#logo {
+	position: absolute;
+	width:600px;
+	height:auto;
+	float:left;
+	left:0px;
+	top:0px;
+}
+
+#idiomas {
+	position:absolute;
+	right: 0px;
+}
+
+#idiomas a img {
+	width: 50px;
+	height: 50px;
+}
+
+nav {
+	position: absolute;
+	top:150px;
+	display: block;
+	background-color: black;
+	width:100%;
+ }
+
+ .dropdown-menu {
+ 	display: none;
+ }
+
+ .hover-dropdown:hover .dropdown-menu {
+ 	display: block;
+ }
+
+ .dropdown-menu {
+ 	margin:0px;
+ }
+
+ .nav-link {
+ 	color:white;
+ 	font-weight:bolder;
+ 	text-decoration: none;
+ }
+
+a.nav-color {
+	color: white;
+}
+
+a.nav-color:hover {
+	color:purple;
+	background-color: white;
+}
+
+.dropdown-option {
+	display: none;
+}
+.icons {
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.icon_img {
+		vertical-align: middle;
+		margin-top: 2px;
+		margin-right: 5px;
+  }
+
+.main {
+	position: absolute;
+	top: 200px;
+	width:100%;
+}
+
+#myCarousel {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	width: 100%;
+}
+
+.carousel-item {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-control-prev {
+	background-color: rgba(0,0,0,0.95);
+	width: 8%;
+}
+
+.carousel-control-next{
+	background-color: rgba(0,0,0,0.95);
+	width: 8%;
+}
+
+.carousel-caption {
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:2%;
+}
+
+#slide01-heading {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	width: 32%;
+	color:black;
+	padding: 1%;
+}
+
+#slide01-par1 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+
+}
+
+#slide01-par2 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+}
+
+#slide02-heading {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	width: 32%;
+	color:black;
+	padding: 1%;
+}
+
+#slide02-par1 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+
+}
+
+#slide02-par2 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+}
+
+#slide03-heading {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	width: 32%;
+	color:black;
+	padding: 1%;
+}
+
+#slide03-par1 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+
+}
+
+#slide03-par2 {
+	text-align: center;
+	background-color: rgba(240,240,240,1);
+	padding:1px;
+	width: auto;
+	color:black;
+	margin:1px;
+}
+
+footer {
+	position: fixed;
+	bottom:-18px;
+	left:-1px;
+	margin:0px;
+	padding:1px;
+}
+
+.container-copyright {
+	background: rgba(50,50,50,0.7);
+	width:70px;
+	height:auto;
+}
