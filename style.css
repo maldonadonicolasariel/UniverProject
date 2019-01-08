@@ -1,3 +1,10 @@
+html {
+	margin-top:0px;
+	width:100%;
+
+}
+
+
 body {
 	background-image:url(Triangle-White-Seamless-Patterns.jpg);
 	background-repeat: all;
@@ -9,10 +16,8 @@ body {
 #header {
 	background-image: url(logoBG.png);
 	background-repeat: repeat-x;
-	position:absolute;
-	top:0px;
-	left:0px;
-	margin:0px;
+	position:relative;
+	margin-top:-15px;
 	height:150px;
 	width: 100%;
 	padding: 0px;
@@ -24,12 +29,9 @@ img	{
 }
 
 #logo {
-	position: absolute;
 	width:600px;
 	height:auto;
 	float:left;
-	left:0px;
-	top:0px;
 }
 
 #idiomas {
@@ -229,10 +231,11 @@ ol.carousel-indicators li.active {
 }
 
 #content {
+	width:100%;
 }
 
 .card {
-	width:50%;
+	width:100%;
 }
 
 .card-header {
@@ -241,6 +244,7 @@ ol.carousel-indicators li.active {
 	border:1px solid;
 	user-select: none;
 	height: 50px;
+	width:100%;
 }
 
 #card-header-text {
@@ -253,14 +257,59 @@ ol.carousel-indicators li.active {
 
 #cont-news {
 	padding:50%:;
-	width: auto;
+	width: 50%;
+	float:left;
+}
+
+#middle {
+	position:absolute;
+	top:450px;
+	width:100%;
+	z-index: 2;
+}
+
+#form-card {
+	float:left;
+	width: 45%;
+	background-color: black	;
+	color:white;
+	text-align: center;
+	margin:1px;
+	padding: 5px 0px;
+}
+
+.form-row {
+	padding: 0px 25px;
+}
+
+.form-control {
+	border:0;
+}
+
+#submit-row {
+}
+
+#knowmore {
+	margin-top:5px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size:28px;
+
+}
+
+.btn {
+	margin-left:85%;
+
+}
+
+hr {
+	background-color: white;
+	width: 90%;
+	height:2px;
 }
 
 #accordion {
-	position: absolute;
-	left:10px;
-	top:75%;
-	width:90%;
+	position: relative;
+	width:100%;
 	height: auto;
 	z-index: 3;
 }
@@ -294,8 +343,7 @@ ol.carousel-indicators li.active {
 	height: 300px;
 	width:100%;
 	position:absolute;
-	bottom:-500px;
-	right: 0px;
+	bottom:0px;
 	z-index: -1;
 }
 
@@ -306,7 +354,7 @@ footer {
 	left:0px;
 	margin:0px;
 	padding:0px 2px;
-	height:auto;
+	height:500px;
 	width:100%;
 	z-index: 0;
 }
